@@ -1,3 +1,4 @@
-
-syntax: glob
-*.pyc
+glob:*.pyc
+glob:dist/
+glob:build/
+glob:mdm_compare.egg-info/
