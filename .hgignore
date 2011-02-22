@@ -4,3 +4,4 @@ glob:build/
 glob:mdm_compare.egg-info/
 glob:.project
 glob:.pydevproject
+glob:.coverage
