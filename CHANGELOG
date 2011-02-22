@@ -1,0 +1,7 @@
+mdm_compare 1.0.1 (February 22, 2011)
+
+    * Updated dependency versions to keep Ubuntu 10.04 and nose-xcover happy.
+
+mdm_compare 1.0.0 (February 22, 2011)
+
+    * Initial release.
