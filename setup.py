@@ -4,8 +4,6 @@ ez_setup.use_setuptools()
 import sys
 from setuptools import setup
 
-import mdm_compare
-
 
 if sys.version_info < (2, 6):
     print 'ERROR: mdm_compare requires at least Python 2.6 to run.'
@@ -14,7 +12,7 @@ if sys.version_info < (2, 6):
 
 setup(
     name='mdm_compare',
-    version=mdm_compare.__version__,
+    version='1.0.1',
     url='https://bitbucket.org/petar/mdm_compare',
     download_url='https://bitbucket.org/petar/mdm_compare',
     license='BSD',
