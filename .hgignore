@@ -8,3 +8,4 @@ glob:.coverage
 syntax: glob
 coverage.xml
 nosetests.xml
+html_coverage_report/
