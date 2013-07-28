@@ -5,3 +5,6 @@ glob:mdm_compare.egg-info/
 glob:.project
 glob:.pydevproject
 glob:.coverage
+syntax: glob
+coverage.xml
+nosetests.xml
