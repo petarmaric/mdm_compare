@@ -28,7 +28,7 @@ def mdm_compare(mdm_file1, mdm_file2, decimal_precision=DEFAULT_PRECISION):
                         raise ValueError("Files are different on line %d" % (idx+1))
     return True
 
-def main():
+def main(): #pragma: no cover
     import argparse
     import sys
     
