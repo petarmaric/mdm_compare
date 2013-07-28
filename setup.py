@@ -12,7 +12,7 @@ if sys.version_info < (2, 6):
 
 setup(
     name='mdm_compare',
-    version='1.0.1',
+    version='1.0.2',
     url='https://bitbucket.org/petar/mdm_compare',
     download_url='https://bitbucket.org/petar/mdm_compare',
     license='BSD',

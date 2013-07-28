@@ -1,3 +1,9 @@
+mdm_compare 1.0.2 (July 28, 2013)
+
+    * Improved testing and fixed issues with our continuous integration server.
+
+    * Switched from using `setuptools` to `distribute` for packaging.
+
 mdm_compare 1.0.1 (February 22, 2011)
 
     * Updated dependency versions to keep Ubuntu 10.04 and nose-xcover happy.
