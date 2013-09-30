@@ -18,7 +18,9 @@ setup(
     license='BSD',
     author='Petar Maric',
     author_email='petarmaric@uns.ac.rs',
-    description=open('README').read(),
+    description='Console app and Python API for comparing 2 experiment results '\
+                'stored in the MDM file format.',
+    long_description=open('README').read(),
     zip_safe=False,
     classifiers=[
         'Development Status :: 5 - Production/Stable',
