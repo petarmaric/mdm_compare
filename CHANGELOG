@@ -1,3 +1,7 @@
+mdm_compare 1.0.3 (September 30, 2013)
+
+    * Updated README to be a lot more useful.
+
 mdm_compare 1.0.2 (July 28, 2013)
 
     * Improved testing and fixed issues with our continuous integration server.
