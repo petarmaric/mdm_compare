@@ -10,10 +10,10 @@ def mdm_compare(mdm_file1, mdm_file2, decimal_precision=DEFAULT_PRECISION):
         lines1 = f1.readlines()
         with open(mdm_file2, 'r') as f2:
             lines2 = f2.readlines()
-            
+
             if len(lines1) != len(lines2):
                 raise ValueError('Files do not have the same number of lines')
-            
+
             for idx, (line1, line2) in enumerate(zip(lines1, lines2)):
                 if line1 != line2:
                     array1 = np.fromstring(line1, dtype=float, sep=' ')
@@ -31,7 +31,7 @@ def mdm_compare(mdm_file1, mdm_file2, decimal_precision=DEFAULT_PRECISION):
 def main(): #pragma: no cover
     import argparse
     import sys
-    
+
     parser = argparse.ArgumentParser(
         description='Compare 2 experiment results stored in the MDM file format'
     )
@@ -55,7 +55,7 @@ def main(): #pragma: no cover
     )
     args = parser.parse_args()
 
-    
+
     try:
         mdm_compare(*args.file, decimal_precision=args.precision)
         print 'Files can be considered the same'
