@@ -17,7 +17,7 @@ setup(
     author_email='petarmaric@uns.ac.rs',
     description='Console app and Python API for comparing 2 experiment results '\
                 'stored in the MDM file format.',
-    long_description=open('README').read(),
+    long_description=open('README.rst').read(),
     zip_safe=False,
     classifiers=[
         'Development Status :: 5 - Production/Stable',
