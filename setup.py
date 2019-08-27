@@ -9,7 +9,7 @@ if sys.version_info < (2, 6):
 
 setup(
     name='mdm_compare',
-    version='1.0.5',
+    version='1.0.6',
     url='https://github.com/petarmaric/mdm_compare',
     download_url='https://github.com/petarmaric/mdm_compare',
     license='BSD',
