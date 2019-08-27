@@ -48,11 +48,11 @@ Quick start::
 Contribute
 ==========
 
-If you find any bugs, or wish to propose new features `please let me know`_. 
+If you find any bugs, or wish to propose new features `please let me know`_.
 
 If you'd like to contribute, simply fork `the repository`_, commit your changes
 and send a pull request. Make sure you add yourself to `AUTHORS`_.
 
-.. _`please let me know`: https://bitbucket.org/petar/mdm_compare/issues/new
-.. _`the repository`: http://bitbucket.org/petar/mdm_compare
-.. _`AUTHORS`: https://bitbucket.org/petar/mdm_compare/src/default/AUTHORS
+.. _`please let me know`: https://github.com/petarmaric/mdm_compare/issues/new
+.. _`the repository`: https://github.com/petarmaric/mdm_compare
+.. _`AUTHORS`: https://github.com/petarmaric/mdm_compare/blob/master/AUTHORS

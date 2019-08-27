@@ -1,0 +1,10 @@
+*.pyc
+dist/
+build/
+mdm_compare.egg-info/
+.project
+.pydevproject
+.coverage
+coverage.xml
+nosetests.xml
+html_coverage_report/
